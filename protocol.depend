@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1678049922 source:c:\users\bartosz kosciug\documents\protocol\chaoticcipher.cpp
+	"ChaoticCipher.h"
+	<string.h>
+	<math.h>
+	<iostream>
+	<iomanip>
+
+1666722669 c:\users\bartosz kosciug\documents\protocol\chaoticcipher.h
+	<stdint.h>
+
+1678054224 source:c:\users\bartosz kosciug\documents\protocol\main.cpp
+	<iostream>
+	<math.h>
+	"ChaoticCipher.h"
+	"SlimChaotic.h"
+	"LochaHash.h"
+
+1672837957 source:c:\users\bartosz kosciug\documents\protocol\lochahash.cpp
+	"LochaHash.h"
+	<iostream>
+	<cctype>
+	<math.h>
+
+1667320863 c:\users\bartosz kosciug\documents\protocol\lochahash.h
+	<stdint.h>
+
+1678055039 source:c:\users\bartosz kosciug\documents\protocol\slimchaotic.cpp
+	"SlimChaotic.h"
+	<string.h>
+	<iostream>
+
+1678116668 c:\users\bartosz kosciug\documents\protocol\slimchaotic.h
+	<stdint.h>
+
