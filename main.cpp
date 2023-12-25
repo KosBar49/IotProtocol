@@ -4,6 +4,8 @@
 #include "SlimChaotic.h"
 #include "LochaHash.h"
 
+#include "ZKPDiscreteLog.h"
+
 using namespace std;
 
 int main()
@@ -53,10 +55,21 @@ int main()
         cout << hash_[i];
         cout << "";
     }
-    //cout << endl;
-    //cout << locha.checkIfPrime(7) << endl;
+    cout << endl;
+    cout << locha.checkIfPrime(7) << endl;
+
+    int modulo = 13; // p
+    int gen = 2;
+    int secret = 5;
+
+    ZKPDiscreteLog zkp(modulo, gen, secret);
+
+    auto [r, C] = zkp.commitment();
+    int c = zkp.challenge();
+    int resp = zkp.response(c, r);
+    int y = zkp.getY();
+
+    std::cout << std::boolalpha << zkp.verify(C, c, resp, y) << std::endl;
 
     return 0;
-
-
 }
