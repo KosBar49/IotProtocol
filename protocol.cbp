@@ -39,6 +39,7 @@
 		<Unit filename="include/DoubleChaotic.h" />
 		<Unit filename="include/DoubleMap.h" />
 		<Unit filename="include/DoubleTent.h" />
+		<Unit filename="include/Encryption.h" />
 		<Unit filename="include/LochaHash.h" />
 		<Unit filename="include/LogisticMap.h" />
 		<Unit filename="include/SimpleMap.h" />
@@ -55,6 +56,7 @@
 		<Unit filename="src/DoubleChaotic.cpp" />
 		<Unit filename="src/DoubleMap.cpp" />
 		<Unit filename="src/DoubleTent.cpp" />
+		<Unit filename="src/Encryption.cpp" />
 		<Unit filename="src/LochaHash.cpp" />
 		<Unit filename="src/LogisticMap.cpp" />
 		<Unit filename="src/SimpleMap.cpp" />
