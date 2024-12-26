@@ -1,8 +1,10 @@
 #include <iostream>
 #include <random>
 #include <utility>
+#include "ZKPDiscreteLog.h"
 #ifndef ZKPDISCRETELOG_H_INCLUDED
 #define ZKPDISCRETELOG_H_INCLUDED
+
 
 class ZKPDiscreteLog {
 private:

@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,12 +34,33 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="ChaoticCipher.cpp" />
-		<Unit filename="ChaoticCipher.h" />
-		<Unit filename="LochaHash.cpp" />
-		<Unit filename="LochaHash.h" />
-		<Unit filename="Streaming.h" />
+		<Unit filename="include/ChaoticCipher.h" />
+		<Unit filename="include/ChaoticPrng.h" />
+		<Unit filename="include/DoubleChaotic.h" />
+		<Unit filename="include/DoubleMap.h" />
+		<Unit filename="include/DoubleTent.h" />
+		<Unit filename="include/LochaHash.h" />
+		<Unit filename="include/LogisticMap.h" />
+		<Unit filename="include/SimpleMap.h" />
+		<Unit filename="include/SlimChaotic.h" />
+		<Unit filename="include/Streaming.h" />
+		<Unit filename="include/TentMap.h" />
+		<Unit filename="include/ZKPDiscreteLog.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="protocol.cbp" />
+		<Unit filename="protocol.depend" />
+		<Unit filename="protocol.layout" />
+		<Unit filename="src/ChaoticCipher.cpp" />
+		<Unit filename="src/ChatoicPrng.cpp" />
+		<Unit filename="src/DoubleChaotic.cpp" />
+		<Unit filename="src/DoubleMap.cpp" />
+		<Unit filename="src/DoubleTent.cpp" />
+		<Unit filename="src/LochaHash.cpp" />
+		<Unit filename="src/LogisticMap.cpp" />
+		<Unit filename="src/SimpleMap.cpp" />
+		<Unit filename="src/SlimChaotic.cpp" />
+		<Unit filename="src/TentMap.cpp" />
+		<Unit filename="src/ZKPDiscreteLog.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

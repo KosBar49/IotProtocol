@@ -33,3 +33,173 @@
 1678116668 c:\users\bartosz kosciug\documents\protocol\slimchaotic.h
 	<stdint.h>
 
+1729108705 source:c:\users\bartosz kosciug\iotprotocol\lochahash.cpp
+	"LochaHash.h"
+	<iostream>
+	<cctype>
+	<math.h>
+
+1729105973 c:\users\bartosz kosciug\iotprotocol\lochahash.h
+	<stdint.h>
+
+1734471973 source:c:\users\bartosz kosciug\iotprotocol\main.cpp
+	<iostream>
+	<math.h>
+	<chrono>
+	"ChaoticCipher.h"
+	"SlimChaotic.h"
+	"LochaHash.h"
+	"ChaoticPrng.h"
+	"DoubleMap.h"
+	<fstream>
+	<bitset>
+
+1729025954 c:\users\bartosz kosciug\iotprotocol\chaoticcipher.h
+	<stdint.h>
+
+1729025954 c:\users\bartosz kosciug\iotprotocol\slimchaotic.h
+	<stdint.h>
+
+1729025954 c:\users\bartosz kosciug\iotprotocol\zkpdiscretelog.h
+	<utility>
+	<random>
+
+1729025954 source:c:\users\bartosz kosciug\iotprotocol\slimchaotic.cpp
+	"SlimChaotic.h"
+	<string.h>
+	<iostream>
+
+1729026281 source:c:\users\bartosz kosciug\iotprotocol\chaoticcipher.cpp
+	"ChaoticCipher.h"
+	<string.h>
+	<math.h>
+	<iostream>
+	<iomanip>
+
+1729186362 source:c:\users\bartosz kosciug\iotprotocol\logisticmap.cpp
+	"LogisticMap.h"
+
+1729101680 c:\users\bartosz kosciug\iotprotocol\logisticmap.h
+
+1730062529 source:c:\users\bartosz kosciug\iotprotocol\simplemap.cpp
+	"SimpleMap.h"
+
+1729101680 c:\users\bartosz kosciug\iotprotocol\simplemap.h
+	<stdint.h>
+
+1729101680 source:c:\users\bartosz kosciug\iotprotocol\tentmap.cpp
+	"TentMap.h"
+
+1729101681 c:\users\bartosz kosciug\iotprotocol\tentmap.h
+
+1729104145 source:c:\users\bartosz kosciug\iotprotocol\zkpdiscretelog.cpp
+	<iostream>
+	<random>
+	<utility>
+	"ZKPDiscreteLog.h"
+
+1730662580 source:c:\users\bartosz kosciug\iotprotocol\chatoicprng.cpp
+	"ChaoticPrng.h"
+	"LogisticMap.h"
+	"TentMap.h"
+	"DoubleMap.h"
+	"SimpleMap.h"
+	<iomanip>
+	<math.h>
+	<iostream>
+
+1730661734 c:\users\bartosz kosciug\iotprotocol\chaoticprng.h
+	<stdint.h>
+	"LogisticMap.h"
+	"TentMap.h"
+	"SimpleMap.h"
+	"DoubleMap.h"
+
+1730665218 c:\users\bartosz kosciug\iotprotocol\doublemap.h
+
+1730665216 source:c:\users\bartosz kosciug\iotprotocol\doublemap.cpp
+	"DoubleMap.h"
+
+1729025954 c:\users\bartosz kosciug\iotprotocol\include\chaoticcipher.h
+	<stdint.h>
+
+1729025954 c:\users\bartosz kosciug\iotprotocol\include\slimchaotic.h
+	<stdint.h>
+
+1729105973 c:\users\bartosz kosciug\iotprotocol\include\lochahash.h
+	<stdint.h>
+
+1734470567 c:\users\bartosz kosciug\iotprotocol\include\chaoticprng.h
+	<stdint.h>
+	"LogisticMap.h"
+	"TentMap.h"
+	"SimpleMap.h"
+	"DoubleMap.h"
+	"DoubleTent.h"
+
+1731864564 c:\users\bartosz kosciug\iotprotocol\include\logisticmap.h
+
+1729101681 c:\users\bartosz kosciug\iotprotocol\include\tentmap.h
+
+1729101680 c:\users\bartosz kosciug\iotprotocol\include\simplemap.h
+	<stdint.h>
+
+1731864532 c:\users\bartosz kosciug\iotprotocol\include\doublemap.h
+
+1729026281 source:c:\users\bartosz kosciug\iotprotocol\src\chaoticcipher.cpp
+	"ChaoticCipher.h"
+	<string.h>
+	<math.h>
+	<iostream>
+	<iomanip>
+
+1734472092 source:c:\users\bartosz kosciug\iotprotocol\src\chatoicprng.cpp
+	"ChaoticPrng.h"
+	"LogisticMap.h"
+	"TentMap.h"
+	"DoubleMap.h"
+	"SimpleMap.h"
+	"DoubleTent.h"
+	<iomanip>
+	<math.h>
+	<iostream>
+
+1731864539 source:c:\users\bartosz kosciug\iotprotocol\src\doublemap.cpp
+	"DoubleMap.h"
+
+1729108705 source:c:\users\bartosz kosciug\iotprotocol\src\lochahash.cpp
+	"LochaHash.h"
+	<iostream>
+	<cctype>
+	<math.h>
+
+1731864576 source:c:\users\bartosz kosciug\iotprotocol\src\logisticmap.cpp
+	"LogisticMap.h"
+
+1730062529 source:c:\users\bartosz kosciug\iotprotocol\src\simplemap.cpp
+	"SimpleMap.h"
+
+1729025954 source:c:\users\bartosz kosciug\iotprotocol\src\slimchaotic.cpp
+	"SlimChaotic.h"
+	<string.h>
+	<iostream>
+
+1729101680 source:c:\users\bartosz kosciug\iotprotocol\src\tentmap.cpp
+	"TentMap.h"
+
+1729104145 source:c:\users\bartosz kosciug\iotprotocol\src\zkpdiscretelog.cpp
+	<iostream>
+	<random>
+	<utility>
+	"ZKPDiscreteLog.h"
+
+1729025954 c:\users\bartosz kosciug\iotprotocol\include\zkpdiscretelog.h
+	<utility>
+	<random>
+
+1731870345 c:\users\bartosz kosciug\iotprotocol\include\doubletent.h
+
+1734472165 source:c:\users\bartosz kosciug\iotprotocol\src\doubletent.cpp
+	"DoubleTent.h"
+	<cmath>
+

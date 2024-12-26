@@ -11,7 +11,9 @@ LochaHash::LochaHash(float u_, float x_1, int coeff_n_1, float x_2, int coeff_n_
     u = u_;
     x1 = x_1;
     coeff1 = (int)pow(10, coeff_n_1);
-    x2 - x_2;
+    cout << coeff_n_1 << endl;
+    cout << coeff1 << endl;
+    x2 = x_2;
     coeff2 = (int)pow(10, coeff_n_2);
 }
 
@@ -26,7 +28,7 @@ void LochaHash::readSTable1(){
 
 void LochaHash::readSTable2(){
 
-    for ( int i =0; i < 63; i++){
+    for ( int i = 0; i < 63; i++){
         cout << sTable2[i] << endl;
     }
 
@@ -34,12 +36,12 @@ void LochaHash::readSTable2(){
 
 float LochaHash::genNextElem1()
 {
-    x1 = u*x1*(1 - x1);// - x1*x1*u;
+    x1 = 1 - x1*x1*u;
 }
 
 float LochaHash::genNextElem2()
 {
-    x2 = u*x2*(1 - x2);// - x2*x2*u;
+    x2 = 1 - x2*x2*u;
 }
 
 int LochaHash::checkIfPrime(int n){
@@ -63,15 +65,25 @@ int LochaHash::checkIfPrime(int n){
 void LochaHash::calculatePrimesSTable1(){
     int c = 0;
     int prime;
+
+    cout << x1 << endl;
+    cout << coeff1 << endl;
+    cout << (int)(x1 * coeff1) << endl;
     while (c < 96){
 
         prime = (int)(x1 * coeff1);
+        cout << prime << endl;
         prime = ( 1024  + (prime % 1024) ) % 1024;
+        cout << prime << endl;
         prime = checkIfPrime(prime);
+        cout << prime << endl;
+        break;
+        cout << prime << endl;
         if (prime != 0 & prime < 1000){
             sTable1[c] = prime;
             c += 1;
         }
+
         genNextElem1();
     }
 }

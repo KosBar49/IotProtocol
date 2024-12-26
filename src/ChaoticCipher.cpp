@@ -121,7 +121,6 @@ uint8_t ChaoticCipher::calcCipher(uint8_t data_)
 }
 
 
-
 void ChaoticCipher::cipherDataNorm(uint8_t* data_, uint8_t len_)
 {
     this->len = len_;
@@ -137,16 +136,15 @@ void ChaoticCipher::cipherDataNorm(uint8_t* data_, uint8_t len_)
 }
 
 void ChaoticCipher::cipherDataSimple(uint8_t* data_, uint8_t len_){
+    this->len = len_;
     uint8_t seqElem;
     genChaotic();
     for (int i = 0; i < len_; i++)
     {
-        // normalize the elem of the chaotic sequence
-
         seqElem = getMantissa(chaoticSeq[i]);
-        for (int j = 0; j <= 7; j ++){
-            cout << ((seqElem >> j) & 0X01) ;
-        }
+        // for (int j = 0; j <= 7; j ++){
+        //     cout << ((seqElem >> j) & 0X01) ;
+        // }
         cout << endl;
         data_[i] = data_[i] ^ seqElem;
     }
